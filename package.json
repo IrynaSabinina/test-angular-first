@@ -1,6 +1,7 @@
 {
   "name": "test-angular",
   "version": "0.0.0",
+  "homepage": "https://IrynaSabinina.github.io/test-angular-first/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

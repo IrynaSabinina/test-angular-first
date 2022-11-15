@@ -6,7 +6,7 @@
   />
   <button
     [ngStyle]="{
-      backgroundColor: easy ? easy : color
+      backgroundColor: easy === 'easy' ? 'red' : 'gray'
     }"
     type="button"
   >
@@ -14,7 +14,7 @@
   </button>
   <button
     [ngStyle]="{
-      backgroundColor: medium ? medium : color
+      backgroundColor: medium === 'medium' ? 'yellow' : 'gray'
     }"
     type="button"
   >
@@ -22,7 +22,7 @@
   </button>
   <button
     [ngStyle]="{
-      backgroundColor: strong ? strong : color
+      backgroundColor: strong === 'strong' ? 'green' : 'gray'
     }"
     type="button"
   >
