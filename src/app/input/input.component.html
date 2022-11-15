@@ -1,0 +1,31 @@
+<div class="input-container">
+  <input
+    type="text"
+    [(ngModel)]="strenth"
+    (ngModelChange)="changeHandler($event)"
+  />
+  <button
+    [ngStyle]="{
+      backgroundColor: easy ? easy : color
+    }"
+    type="button"
+  >
+    {{ easy }}
+  </button>
+  <button
+    [ngStyle]="{
+      backgroundColor: medium ? medium : color
+    }"
+    type="button"
+  >
+    {{ medium }}
+  </button>
+  <button
+    [ngStyle]="{
+      backgroundColor: strong ? strong : color
+    }"
+    type="button"
+  >
+    {{ strong }}
+  </button>
+</div>
